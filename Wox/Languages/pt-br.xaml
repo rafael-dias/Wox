@@ -1,0 +1,141 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--Tela Principal-->
+    <system:String x:Key="Falha ao registrar a tecla de atalho: {0}"</system:String>
+    <system:String x:Key="Não foi possível iniciar {0}"</system:String>
+    <system:String x:Key="Formato de arquivo de plug-in de Wox inválido"</system:String>
+    <system:String x:Key="Definir como o mais alto nesta consulta"</system:String>
+    <system:String x:Key="Cancelar a parte superior nesta consulta"</system:String>
+    <system:String x:Key="Execute query: {0}"</system:String>
+    <system:String x:Key="Último tempo de execução: {0}"</system:String>
+    <system:String x:Key="Abrir"</system:String>
+    <system:String x:Key="Configurações"</system:String>
+    <system:String x:Key="Sobre"</system:String>
+    <system:String x:Key="Sair"</system:String>
+
+    <!--Configurações Gerais-->
+    <system:String x:Key="Configurações de Wox"</system:String>
+    <system:String x:Key="Geral"</system:String>
+    <system:String x:Key="Iniciar Wox na inicialização do sistema"</system:String>
+    <system:String x:Key="Ocultar Wox quando o foco é perdido"</system:String>
+    <system:String x:Key="Não mostre novas notificações de versão"</system:String>
+    <system:String x:Key="Lembre-se do último local de lançamento"</system:String>
+    <system:String x:Key="Idioma"</system:String>
+    <system:String x:Key="Último estilo de consulta"</system:String>
+    <system:String x:Key="Preserve a última consulta"</system:String>
+    <system:String x:Key="Selecione a última consulta"</system:String>
+    <system:String x:Key="Limpar última Consulta"</system:String>
+    <system:String x:Key="Resultados máximos mostrados"</system:String>
+    <system:String x:Key="Ignorar Tecla de atalhos no modo de tela cheia"</system:String>
+    <system:String x:Key="Diretório do Python"</system:String>
+    <system:String x:Key="Atualização automática"</system:String>
+    <system:String x:Key="Selecione"</system:String>
+    <system:String x:Key="Ocultar Wox na inicialização"</system:String>
+
+    <!--Configurações de Plugin-->
+    <system:String x:Key="Plugin"</system:String>
+    <system:String x:Key="Encontre mais plugins"</system:String>
+    <system:String x:Key="Desativar"</system:String>
+    <system:String x:Key="Palavras- chave de ação"</system:String>
+    <system:String x:Key="Diretório de plugins"</system:String>
+    <system:String x:Key="Autor"</system:String>
+    <system:String x:Key="Tempo inicial: {0} ms"</system:String>
+    <system:String x:Key="Tempo de consulta: {0} ms"</system:String>
+
+    <!--Configurações de Tema-->
+    <system:String x:Key="Tema"</system:String>
+    <system:String x:Key="Procurar mais temas"</system:String>
+    <system:String x:Key="Olá Wox"</system:String>
+    <system:String x:Key="Query Box Font"</system:String>
+    <system:String x:Key="Fonte do item do resultado"</system:String>
+    <system:String x:Key="Modo de janela"</system:String>
+    <system:String x:Key="Opacidade"</system:String>
+
+    <!--Configurações de Tecla de Atalho-->
+    <system:String x:Key="Tecla de atalho"</system:String>
+    <system:String x:Key="Tecla de atalho Wox"</system:String>
+    <system:String x:Key="Tecla de atalho de consulta personalizada"</system:String>
+    <system:String x:Key="Excluir"</system:String>
+    <system:String x:Key="Editar"</system:String>
+    <system:String x:Key="Adicionar"</system:String>
+    <system:String x:Key="Selecione um item"</system:String>
+    <system:String x:Key="Tem certeza de que deseja excluir {0} como tecla de atalho do plugin?"</system:String>
+
+    <!--Configurações de Proxy-->
+    <system:String x:Key="Proxy HTTP"</system:String>
+    <system:String x:Key="Ativar Proxy HTTP"</system:String>
+    <system:String x:Key="Servidor HTTP"</system:String>
+    <system:String x:Key="Porta"</system:String>
+    <system:String x:Key="Nome de usuário"</system:String>
+    <system:String x:Key="Senha"</system:String>
+    <system:String x:Key="Proxy de teste"</system:String>
+    <system:String x:Key="Salvar"</system:String>
+    <system:String x:Key="O campo Servidor não pode estar vazio"</system:String>
+    <system:String x:Key="O campo da porta não pode estar vazio"</system:String>
+    <system:String x:Key="Formato de porta inválido"</system:String>
+    <system:String x:Key="Configuração de proxy guardada com sucesso"</system:String>
+    <system:String x:Key="Proxy configurado corretamente"</system:String>
+    <system:String x:Key="Falha na conexão de proxy"</system:String>
+
+    <!--Configurações Sobre-->
+    <system:String x:Key="Sobre"</system:String>
+    <system:String x:Key="Website"</system:String>
+    <system:String x:Key="Versão"</system:String>
+    <system:String x:Key="Você ativou Wox {0} times"</system:String>
+    <system:String x:Key="Verificar atualizações"</system:String>
+    <system:String x:Key="Nova versão {0} está disponível, reinicie o Wox."</system:String>
+    <system:String x:Key="Verifique as atualizações falhadas, verifique suas configurações de conexão e proxy para api.github.com."</system:String>
+    <system:String x:Key="
+        As atualizações do download falharam, verifique suas configurações de conexão e proxy para github-cloud.s3.amazonaws.com,
+        ou vá para https://github.com/Wox-launcher/Wox/releases para baixar atualizações manualmente.
+    "</system:String>
+    <system:String x:Key="Notas de versão:"</system:String>
+
+    <!--Configurações Janela de Diálogo Palavra-chave de Ação-->
+    <system:String x:Key="Palavra-chave de Ação anterior"</system:String>
+    <system:String x:Key="Nova Palavra-chave de Ação"</system:String>
+    <system:String x:Key="Cancelar"</system:String>
+    <system:String x:Key="Feito"</system:String>
+    <system:String x:Key="Não foi possível encontrar o plugin especificado"</system:String>
+    <system:String x:Key="Nova ação A palavra- chave não pode estar vazia"</system:String>
+    <system:String x:Key="Novas palavras-chave de ação foram atribuídas a outro plugin, atribua outra palavra-chave de ação nova"</system:String>
+    <system:String x:Key="Secesso"</system:String>
+    <system:String x:Key="Use * se você não quiser especificar uma palavra-chave de ação"</system:String>
+
+    <!--Janela de Diálogo de Atalhos para Consulta Personalizada-->
+    <system:String x:Key="Visualizar"</system:String>
+    <system:String x:Key="A tecla de atalho está indisponível, selecione uma nova tecla de atalho"</system:String>
+    <system:String x:Key="Tecla de atalho inválido"</system:String>
+    <system:String x:Key="Atualização"</system:String>
+
+    <!--Controle de Tecla de atalho-->
+    <system:String x:Key="Tecla de atalho indisponível"</system:String>
+
+    <!--Reportar Problemas-->
+    <system:String x:Key="Versão"</system:String>
+    <system:String x:Key="Tempo"</system:String>
+    <system:String x:Key="Diga-nos como o aplicativo foi travado para que possamos corrigi-lo"</system:String>
+    <system:String x:Key="Enviar relatório"</system:String>
+    <system:String x:Key="Cancelar"</system:String>
+    <system:String x:Key="Geral"</system:String>
+    <system:String x:Key="Exceções"</system:String>
+    <system:String x:Key="Tipo de Exceção"</system:String>
+    <system:String x:Key="Origem"</system:String>
+    <system:String x:Key="Stack Trace"</system:String>
+    <system:String x:Key="Enviando"</system:String>
+    <system:String x:Key="Relatório enviado com sucesso"</system:String>
+    <system:String x:Key="Falha ao enviar relatório"</system:String>
+    <system:String x:Key="Wox obteve um erro"</system:String>
+
+    <!--Atualizações-->
+    <system:String x:Key="A nova versão do Wox {0} está disponível agora"</system:String>
+    <system:String x:Key="Ocorreu um erro ao tentar instalar atualizações de software"</system:String>
+    <system:String x:Key="Atualização"</system:String>
+    <system:String x:Key="Cancelar"</system:String>
+    <system:String x:Key="Esta atualização irá reiniciar o Wox"</system:String>
+    <system:String x:Key="Os seguintes arquivos serão atualizados"</system:String>
+    <system:String x:Key="Atualizar arquivos"</system:String>
+    <system:String x:Key="Descrição da atualização"</system:String>
+
+</ResourceDictionary>
